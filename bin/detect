@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -f $1/src/project.json ]; then
+    echo ".Net Core"
+    exit 0
+else 
+    exit 1
+fi
